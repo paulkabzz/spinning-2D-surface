@@ -24,10 +24,10 @@ public class SmoothASCIIRotation {
         System.out.println("3. High-FPS wave rotation");
         System.out.println();
         
-        ultraSmoothRotation(surface);
+        animate(surface);
     }
     
-    public static void ultraSmoothRotation(Surface surface) {
+    public static void animate(Surface surface) {
         System.out.println("Ultra-Smooth Rotation - Press Ctrl+C to stop");
         
         long lastTime = System.nanoTime();
